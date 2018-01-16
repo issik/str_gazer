@@ -11,12 +11,12 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "The perfect gem ti use and stare into the void of nothingnes with"
   spec.description   = "It's like punk code"
-  spec.homepage      = ""
+  spec.homepage      = "git push -u origin master"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  
+
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
